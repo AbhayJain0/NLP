@@ -4,4 +4,4 @@ Projects Related to Natural Language Processing
 2. we will get total of 18828 documnets. document name is defined as'ClassLabel_DocumentNumberInThatLabel'.so from document name, we can extract the label for that document.
 3. Now our problem is to classify all the documents into any one of the class.
 
-![Alt text](master/frst.jpg?raw=true "Title")
+![Alt text](master/NLP/frst.jpg?raw=true "Title")
