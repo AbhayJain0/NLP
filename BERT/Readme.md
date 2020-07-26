@@ -19,7 +19,6 @@ Token embeddings: A [CLS] token is added to the input word tokens at the beginni
 Segment embeddings: A marker indicating Sentence A or Sentence B is added to each token. This allows the encoder to distinguish between sentences.
 Positional embeddings: A positional embedding is added to each token to indicate its position in the sentence.
 
-![alt_text}(https://towardsml.files.wordpress.com/2019/09/input.png?w=1024)
-
+![alt text](https://towardsml.files.wordpress.com/2019/09/input.png?w=1024)
 
  Essentially, the Transformer stacks a layer that maps sequences to sequences, so the output is also a sequence of vectors with a 1:1 correspondence between input and output tokens at the same index. And as we learnt earlier, BERT does not try to predict the next word in the sentence. Training makes use of the following two strategies:
